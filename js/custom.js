@@ -25,7 +25,18 @@ $(document).ready(function(){
 
     $('.counter').counterUp({
         delay: 50,
-        time: 10000
+        time: 3000
+    });
+
+     $(".money-slider").slick({
+        
+        autoplay: true ,
+        dots: false,
+        slidesToShow:5,
+        centerMode: true,
+        centerPadding: '0px',
+        prevArrow:'<i class="fas fa-chevron-left leftarrow"></i>',
+        nextArrow:'<i class="fas fa-chevron-right rightarrow"></i>',
     });
 
 });

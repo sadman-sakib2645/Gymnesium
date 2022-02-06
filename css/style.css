@@ -606,11 +606,12 @@ img{
 }
 #testimonial .slick-dots{
     position: absolute;
-    left: 46%;
+    left: 0;
     bottom: -30px;
     padding-left: 0;
     margin-bottom: 0;
     display: flex;
+    justify-content: center;
 }
 
 #testimonial .slick-dots li{
@@ -727,12 +728,13 @@ img{
     background: url(../images/counter-bg.png) no-repeat center / cover;
     position: relative;
     z-index: 1;
+    margin-bottom: 80px;
 }
 #funfact::after{
     content: "";
     width: 100%;
     height: 100%;
-    background: var(--foot-over-85);
+    background: rgba(0, 0, 0, 0.9);
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -743,4 +745,124 @@ img{
 }
 /* ====================================
 -----------funfact css ends-----------
+====================================== */
+#routine .nav-tabs {
+	border: none !important;
+	width: 100%;
+	flex-wrap: nowrap;
+}
+#routine .nav-tabs .nav-link{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background:#f1f1f1;
+    line-height: 50px;
+    width: 100%;
+}
+#routine .nav-tabs .nav-item{
+    width: 100%;
+}
+#routine .nav-tabs .nav-link:hover{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-color:transparent !important;
+}
+
+#routine .nav-tabs .nav-item.show .nav-link,#routine .nav-tabs .nav-link.active{
+    border: none !important;
+    background: var(--brand);
+    color: white;
+}
+
+#routine .routine-class ul li{
+    background: #f1f1f1;
+    width:20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: scale(.975);
+    -webkit-transform: scale(.975);
+    -moz-transform: scale(.975);
+    -ms-transform: scale(.975);
+    -o-transform: scale(.975);
+}
+#routine .routine-class ul{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#routine .routine-class ul li.active{
+    background: var(--brand);
+    color: #fff !important;
+}
+#routine .routine-class ul li.active p{
+    color: white;
+}
+/* ====================================
+-----------routine css ends-----------
+====================================== */
+#money .money-slider .money-item{
+    width: 20%;
+    
+}
+#money .money-slider .money-item img{
+    width: 100%;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    transition: all linear .8s;
+    -webkit-transition: all linear .8s;
+    -moz-transition: all linear .8s;
+    -ms-transition: all linear .8s;
+    -o-transition: all linear .8s;
+}
+#money .slick-center{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+#money .leftarrow{
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--hcol);
+    position: absolute;
+    top: 30%;
+    left: -30px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#money .leftarrow:hover{
+    color: var(--brand);
+}
+
+#money .rightarrow{
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--hcol);
+    position: absolute;
+    top: 30%;
+    right: -30px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#money .rightarrow:hover{
+    color: var(--brand);
+}
+/* ====================================
+-----------money css ends-----------
 ====================================== */
