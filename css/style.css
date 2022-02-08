@@ -68,6 +68,15 @@ img{
 .hcol2{
     color: var(--hcol2);
 }
+.twit{
+    color: var(--twit);
+}
+.ln18{
+    line-height: 18px;
+}
+.pl28{
+    padding-left: 28px;
+}
 
 .ows-extra-light{
     font-family: var(--osowald);
@@ -119,9 +128,11 @@ img{
     font-weight: 800;
 }
 /* -------------- opensans ends-------------- */
-.lh18{
-    line-height: 18px;
+.pd30{
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
+
 .pd5{
     padding: 5px 0;
 }
@@ -151,6 +162,9 @@ img{
 }
 .fs60{
     font-size: 60px;
+}
+.t-brand{
+    color: var(--brand);
 }
 /* ============================
         typhography  ends
@@ -865,4 +879,87 @@ img{
 }
 /* ====================================
 -----------money css ends-----------
+====================================== */
+footer{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background: url(../images/footer-bg.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+footer::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+footer .footer-logo{
+    padding: 30px 0;
+}
+footer .footer-main{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+footer .footer-main .opening-hours ul li{
+    padding-bottom: 2px;
+}
+footer .footer-main .opening-hours ul li span{
+    width: 100px;
+    display: inline-block;
+}
+footer .footer-main .twitter-feed ul li.feed1{
+    padding-bottom: 10px;
+}
+footer .footer-main .twitter-feed ul li span i{
+    top: 9px;
+}
+footer .footer-main .twitter-feed ul li a{
+    line-height: 0% !important;
+}
+footer .footer-main .flicker-photos  ul li{
+    width: 25%;
+}
+footer .footer-main .flicker-photos  ul li a img{
+    width: 100%;
+    padding: 5px;
+}
+footer .footer-main .contact ul li{
+    padding-left: 20px;
+}
+footer .footer-main .contact ul li.second{
+    margin: 8px 0;
+}
+footer .footer-main .contact .get{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+footer .footer-main .contact .social-icon a{
+    padding-left: 6px;
+}
+footer .footer-main .contact .social-icon a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    color: #f7f7f7;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+footer .footer-main .contact .social-icon a i:hover{
+    background: var(--brand);
+    border-color: var(--brand);
+}
+footer .footer-copy .copy{
+    padding: 20px 0;
+}
+/* ====================================
+-----------footer css ends-----------
 ====================================== */
