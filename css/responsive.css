@@ -1,0 +1,98 @@
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+@media (max-width: 575px){
+    .navbar{
+        background: rgba(255, 0, 0, 0.5) !important;
+        top: 0 !important;
+    }
+    .navbar .navbar-brand{
+        position: static !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+        padding: 0 !important;
+}
+    .navbar-light .navbar-toggler{
+        border-color: white !important;
+    }
+
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+    }
+
+
+    /* navbar ends */
+
+    #banner .banner-item .banner-text h1::before,
+    #banner .banner-item .banner-text h1::after,
+    #banner .banner-item .banner-text h2::before,
+    #banner .banner-item .banner-text h2::after,
+    #banner .banner-item .banner-text p::before,
+    #banner .banner-item .banner-text p::after
+    {
+        display: none;
+    }
+    
+    /* banner ends */
+
+    #about {
+        margin-top: 50px;
+    }
+    .nice {
+        margin-bottom: 23px;
+    }
+
+    .mb70 {
+        margin-bottom: 50px !important;
+    }
+
+    #team .team-member .team-image .overlay{
+        flex-direction: column;
+    }
+    .member-item{
+        margin-bottom: 30px;
+    }
+
+    #membership {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    #funfact .fun-item {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #funfact {
+        
+        margin-bottom: 50px;
+    }
+    #routine .nav-tabs {
+        flex-wrap: wrap;
+    }
+
+    #routine .routine-class ul li{
+        width: 100%;
+    }
+
+    .pd250{
+        padding:200px 0px;
+    }
+
+    #banner .slick-dots {
+       
+        bottom: 80px;
+        
+    }
+}
+/* ===================================
+    <!-- extra small device -->
+==================================== */

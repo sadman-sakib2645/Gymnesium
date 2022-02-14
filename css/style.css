@@ -618,6 +618,9 @@ img{
 #testimonial .slick-slide{
     padding: 0 15px;
 }
+.slick-slide img{
+    display: initial !important;
+}
 #testimonial .slick-dots{
     position: absolute;
     left: 0;
@@ -657,6 +660,7 @@ img{
     font-size: 0;
     border: none;
 }
+
 /* ====================================
 -----------testimonial css ends-----------
 ====================================== */
@@ -674,13 +678,13 @@ img{
     -o-transition: all linear .5s;
 }
 .pr-1{
-    background: url(../images/price-bg.png);
+    background: url(../images/price-bg.png) no-repeat center / cover;
 }
 .pr-2{
-    background: url(../images/priuce-bg2.png);
+    background: url(../images/priuce-bg2.png) no-repeat center / cover;
 }
 .pr-3{
-    background: url(../images/pricbg3.png);
+    background: url(../images/pricbg3.png) no-repeat center / cover;
 }
 #membership .member-item h5{
     font-size: 50px;
@@ -819,6 +823,9 @@ img{
 /* ====================================
 -----------routine css ends-----------
 ====================================== */
+#money{
+    margin-top: 80px;
+}
 #money .money-slider .money-item{
     width: 20%;
     
@@ -918,7 +925,7 @@ footer .footer-main .twitter-feed ul li span i{
     top: 9px;
 }
 footer .footer-main .twitter-feed ul li a{
-    line-height: 0% !important;
+    line-height: 18px !important;
 }
 footer .footer-main .flicker-photos  ul li{
     width: 25%;
