@@ -96,3 +96,212 @@
 /* ===================================
     <!-- extra small device -->
 ==================================== */
+/* ===================================
+    <!-- small small device -->
+==================================== */
+@media (min-width: 576px ) and (max-width: 767px){
+    .navbar{
+        background: rgba(255, 0, 0, 0.5) !important;
+        top: 0 !important;
+    }
+    .navbar .navbar-brand{
+        position: static !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+        padding: 0 !important;
+}
+    .navbar-light .navbar-toggler{
+        border-color: white !important;
+    }
+
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+    }
+    /* navbar ends */
+
+    
+    #banner .banner-item .banner-text h1::before,
+    #banner .banner-item .banner-text h1::after,
+    #banner .banner-item .banner-text h2::before,
+    #banner .banner-item .banner-text h2::after,
+    #banner .banner-item .banner-text p::before,
+    #banner .banner-item .banner-text p::after
+    {
+        display: none;
+    }
+
+    .pd250{
+        padding-top: 150px;
+    }
+    
+    /* banner ends */
+
+    #about {
+        margin-top: 50px;
+    }
+    .nice {
+        margin-bottom: 23px;
+    }
+
+    /* about ends */
+
+    #team .team-member .team-image .overlay{
+        flex-direction: column;
+    }
+    .mb70 {
+        margin-bottom: 50px !important;
+    }
+
+    .member-item{
+        margin-bottom: 30px;
+    }
+
+    /* team ends */
+    #routine .routine-class ul li {
+        width: 50%;
+    }
+    #routine .nav-tabs {
+        flex-wrap: wrap;
+    }
+
+    #routine .nav-tabs .nav-item {
+        width: 49%;
+        margin-bottom: 8px;
+        margin-right: 5px;
+    }
+
+    
+    /* routine */
+
+    
+
+}
+/* ===================================
+    <!-- small small device -->
+==================================== */
+
+/* ===================================
+    <!-- medium small device -->
+==================================== */
+@media(min-width: 768px) and (max-width: 991px){
+    #banner .bg1 h1::before {
+        right: 54px;
+    }
+
+    #banner .bg1 h1::after {
+        left: 49px;
+    }
+
+    #banner .bg1 h2::before {
+        right: 51px;
+    }
+
+    #banner .bg1 h2::after {
+        left: 47px;
+    }
+    #banner .bg1 p::before {
+    
+        right: 54px;
+    }
+
+    #banner .bg1 p::after {
+
+        width: 89px;
+        left: 50px;
+    }
+    #banner .banner-item .banner-text p {
+        padding: 0px 100px;
+    }
+
+    /* banner ends */
+
+}
+/* ===================================
+    <!-- medium small device -->
+==================================== */
+/* ===================================
+    <!-- large small device -->
+==================================== */
+@media(min-width: 992px) and (max-width: 1199px){
+    #banner .bg1 h1::before {
+    
+        right: -57px;
+    }
+
+    #banner .bg1 h1::after {
+        left: -48px;
+    }
+
+    #banner .bg1 h2::before {
+        right: -60px;
+    }
+
+    #banner .bg1 h2::after {
+        left: -51px;
+    }
+
+    #banner .bg1 p::before {
+        
+        width: 46px;
+       
+        bottom: -32px;
+        right: -60px;
+    }
+
+    #banner .bg1 p::after {
+        
+        width: 67px;
+        bottom: -33px;
+        left: -51px;
+    }
+}
+/* ===================================
+    <!-- large small device -->
+==================================== */
+
+/* ===================================
+    <!-- extra large small device -->
+==================================== */
+@media(min-width: 1400px){
+    #banner .bg1 h1::before {
+
+        right: 23px;
+    }
+
+    #banner .bg1 h1::after {
+    
+        left: 22px;
+    }
+
+    #banner .bg1 h2::before {
+        right: 21px;
+    }
+
+    #banner .bg1 h2::after {
+
+        left: 19px;
+    }
+
+    #banner .bg1 p::before {
+
+        width: 59px;
+
+        right: 24px;
+    }
+    #banner .bg1 p::after {
+        
+        width: 88px;
+        
+        left: 21px;
+    }
+}
+/* ===================================
+    <!-- extra large small device -->
+==================================== */

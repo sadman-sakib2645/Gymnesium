@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $(".banner-slider").slick({
         arrows:false ,
-        autoplay: true ,
+        autoplay: false ,
         dots: true,
     });
     $(".testimonial-slider").slick({
@@ -63,6 +63,16 @@ $(document).ready(function(){
                 breakpoint: 575,
                 settings: {
                 slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                arrows:false
+                }
+            },
+            {
+                breakpoint:768,
+                settings: {
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false,
