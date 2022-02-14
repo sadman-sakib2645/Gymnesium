@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $(".banner-slider").slick({
         arrows:false ,
-        autoplay: false ,
+        autoplay: true ,
         dots: true,
     });
     $(".testimonial-slider").slick({
